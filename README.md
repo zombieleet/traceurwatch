@@ -14,3 +14,4 @@
   `root@os: traceurwatch watchThisDir/:outputDir/`
 
 
+It works on both linux , windows and osX that runs tcl8.6
