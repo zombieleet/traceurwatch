@@ -3,11 +3,14 @@
 
 # Usage
   To watch just a single file
-  traceurwatch --file nameoffile.js --out outfile.js
-  if no outfile was specified it uses nameoffile.js as the outfile
+  
+  `root@os: traceurwatch --file nameoffile.js --out outfile.js`
+  
+   if no outfile was specified it uses nameoffile.js as the outfile
 
 
   To watch an entire directory
-  traceurwatch watchThisDir/:outputDir/
+  
+  `root@os: traceurwatch watchThisDir/:outputDir/`
 
 
