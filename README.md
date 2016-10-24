@@ -1,5 +1,5 @@
 # traceurwatch
-  traceurwatch watches of changes in a javascript file ( es6 ) when been transpiled to es5  , it uses traceur behind the hood
+  traceurwatch watches for changes in a javascript file ( es6 ) when been transpiled to es5  , it uses traceur behind the hood
 
 
 # Usage
