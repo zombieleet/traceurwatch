@@ -1,5 +1,4 @@
 #!/usr/bin/env tclsh
-
 proc createFile { filename } {
     # This procedures creates a new file that does not exists
     # It accpets one argument
@@ -84,7 +83,6 @@ for {set i 0} {$i<=$argc} {incr i} {
 		puts ">>>>> Watching $filename <<<<<<< "
 		watchFile $fileName $outFile
 	    }
-	    break ;
 	}
 	[A-Za-z0-9/]*:[A-Za-z0-9/]* {  ; # match only values separated with just a : e.g abcd:efgh
 	    
@@ -176,8 +174,6 @@ for {set i 0} {$i<=$argc} {incr i} {
 	    }
 	}
 	default {
-	    puts "Invalid command line argument"
-	    exit
 	}
-    }
+    } 
 }
